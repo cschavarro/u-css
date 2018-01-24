@@ -13,8 +13,18 @@ html {
 }
 
 .page-content {
-  max-width: 1024px;
+  max-width: 1160px;
   margin: 0 auto;
+}
+
+.first-letter {
+  color: inherit;
+  float: left;
+  font-size: 3.2rem;
+  font-family: inherit;
+  line-height: 3.5rem;
+  padding-bottom: 1px;
+  padding-right: 20px;
 }
 
 .main-header {
@@ -48,6 +58,7 @@ html {
   clear: both;
 }
 
+/* Article Section of the Page */
 #article_section {
   background: #E8E8E8;
 }
@@ -61,13 +72,104 @@ html {
 #article_section aside {
   color: #787878;
   float: left;
-  padding: 10px;
+  padding: 15px 10px;
   width: 30%;
+}
+
+#article_section .article-search-box-wp {
+  margin-bottom: 15px;
+}
+
+#article_section .article-search-box-wp input {
+  display: block;
+  height: 1.4rem;
+  border: 2px;
+  border-radius: 3px;
+  width: 100%
+}
+
+#article_section aside p {
+  margin-bottom: 0;
+}
+
+#article_section .article-menu-list-wp {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #article_section article {
   color: #787878;
   background: #C8C8C8;
   float: left;
+  padding-right: 20px;
+  padding-left: 15px;
   width: 70%;
+}
+
+#article_section article img {
+  float: right;
+}
+
+/* Gallery Section of the Page */
+#gallery_section {
+  background: #F5F5F5;
+  padding: 15px;
+}
+#gallery_section .gallery-wp {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery_section::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#gallery_section .gallery-wp li {
+  padding: 15px 10px;
+  float: left;
+}
+
+/* Footer Section */
+#footer_section {
+  background: #E8E8E8;
+  padding: 15px;
+}
+
+#footer_section::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#footer_section img {
+  float: left;
+  margin-bottom: 10px;
+}
+
+#footer_section p:last-child {
+  clear: both;
+}
+
+#footer_section .first-letter.first-paragraph {
+  line-height: 2.5rem;
+  padding-left: 10px;
+}
+
+.bordered-footer {
+  border: 3px #75AC38 solid;
+  padding: 20px;
+}
+
+.bordered-footer img {
+  float: right;
+}
+
+.bordered-footer::after {
+  content: '';
+  display: block;
+  clear: both;
 }
