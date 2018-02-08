@@ -15,16 +15,90 @@ html {
   max-width: 1160px;
   margin: 0 auto;
 }
-
-.nm-example {
-  background: #f5f5f5;
+section {
   padding: 15px;
+  margin: 40px 0;
 }
 
-.nm-example hr {
+section hr {
   border: 1px #d05036 solid ;
 }
 
-.nm-example .nm-content {
+section h5 {
+  font-weight: bold;
+}
+
+#nm-example {
+  background: #f5f5f5;
+  color: #787878;
+}
+
+#nm-example::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#nm-example .nm-content {
   padding-top: 10px;
+}
+
+.nm-content {
+  float: left;
+  margin-right: -200px;
+  width: 100%;
+}
+.nm-content p {
+  margin-right: 210px;
+}
+
+.nm-list {
+  border-left:  #dddddd solid 2px;
+  float: left;
+  width: 200px;
+}
+
+#nm-tree-column { background: #f5f5f5; color: #787878;}
+
+#nm-tree-column ul { list-style: none; padding: 0;}
+
+#nm-tree-column li { border-bottom: #dddddd solid 1px; line-height: 1.3rem; text-align: center; width: 100px; }
+
+.col2 { margin-left: 100px; }
+
+.col3 { margin-left: 200px; }
+
+.top2 { margin-top: -4.09rem; }
+
+.top3 { margin-top: -4.08rem; }
+
+#nm-footer {
+  background: #f5f5f5; color: #787878;
+}
+
+#nm-footer article {
+  padding-bottom: 50px;
+}
+
+#nm-footer .nm-site-footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+#nm-footer .nm-site-footer ul {
+  background: #d05036;
+  color: #FFF;
+  list-style: none;
+  padding-left: 20px;
+}
+
+#nm-footer .nm-site-footer ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#nm-footer .nm-site-footer li {
+  float: left;
+  padding: 10px 20px;
 }
