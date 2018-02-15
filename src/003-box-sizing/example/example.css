@@ -3,3 +3,37 @@
  * Version: 1
  * By: xxx
  */
+* {
+  font-size: 16px
+}
+
+.page-content {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+section {
+  padding: 10px 20px;
+  background: #e5e5e5;
+  margin: 25px 0;
+}
+
+section h3 {
+  color: #72737a;
+}
+
+article {
+  border: 5px solid #D24F2E;
+  height: 100px;
+  margin: 15px;
+  padding: 15px;
+  width: 1000px;
+}
+
+#bx_content_example {
+  box-sizing: content-box;
+}
+
+#bs_borde_example {
+  box-sizing: border-box;
+}

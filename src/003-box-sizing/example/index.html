@@ -33,34 +33,30 @@
     <div class="page-content">
       <!-- Practice Content Goes Here -->
 
-      <div>
+      <section>
+        <h3> Box Model </h3>
+        <article id="bx_model_example">
+          <p>Since the dawn of CSS, the box model has worked like this by default:</p>
+          <p>width + padding + border = actual visible/rendered width of an element's box</p>
+          <p>height + padding + border = actual visible/rendered height of an element's box</p>
+        </article>
+      </section>
 
-        <div>
-          <h3> Box Model </h3>
-          <div>
-            <p>Since the dawn of CSS, the box model has worked like this by default:</p>
-            <p>width + padding + border = actual visible/rendered width of an element's box</p>
-            <p>height + padding + border = actual visible/rendered height of an element's box</p>
-          </div>
-        </div>
+      <section>
+        <h3>Box Sizing : Content Box </h3>
+        <article id="bx_content_example">
+          <p>Default. The width and height properties (and min/max properties) includes only the content. Border,
+            padding, or margin are not included</p>
+        </article>
+      </section>
 
-        <div>
-          <h3>Box Sizing : Content Box </h3>
-          <div>
-            <p>Default. The width and height properties (and min/max properties) includes only the content. Border,
-              padding, or margin are not included</p>
-          </div>
-        </div>
-
-        <div class="bs-example">
-          <h3>Box Sizing : border-box </h3>
-          <div>
-            <p>The width and height properties (and min/max properties) includes content, padding and border, but not
-              the margin</p>
-          </div>
-        </div>
-
-      </div>
+      <section>
+        <h3>Box Sizing : border-box </h3>
+        <article id="bs_borde_example">
+          <p>The width and height properties (and min/max properties) includes content, padding and border, but not
+            the margin</p>
+        </article>
+      </section>
 
     </div>
   </main>
